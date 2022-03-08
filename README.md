@@ -121,6 +121,23 @@ course of the project.
 | **Related Principles:**     | None |
 | **Notes:**                  | <ul><li>The team has extensive knowledge of Java from college already</li><li>Using JavaScript and Node.js might be best for both learning and also for the purposes of the application</li><li>The JavaScript syntax is relatively similar to that of Java and so should be relatively familiar</li></ul> |
 
+#### Unit Testing Framework
+|                             |                                                                             |
+| --------------------------- | --------------------------------------------------------------------------- |
+| **Issue:**         		  |	The project will be completed over a number of months and as such it is essential that all additions can be verified to work as intended to prevent any unnecessary blockages. |
+| **Decision:**       		  |	Use a JavaScript unit testing framework, namely Jest, to write unit tests for new functions and features. |
+| **Status:**         		  | Decided |
+| **Group:**          		  | Backend |
+| **Assumptions:**            | <ul><li>Building a substantial application is not feasible if bugs cannot be easily found and rectified</li></ul> |
+| **Constraints:**            | None |
+| **Positions:**              | <ul><li>Using Mocha</li><li>Using Cypress</li>/<li>Using Webdriver</li><ul> |
+| **Argument:**               | Jest was designed by Facebook developers to work with React and so it fits seamlessly with our React application. Jest is also relatively simple and requires no pre-configuration unlike Mocha. Jest is also specifically designed for unit testing as opposed to more comprehensive testing frameworks like Cypress and Webdriver which offer a variety of additional testing mechanisms which are not required for the purposes of this project. |
+| **Implications:**           | The backend team will need to become familiar with the syntax and write Jest unit tests when developing new features and functions. |
+| **Related Decisions:**      |  <ul><li>Choice of backend framework</li></ul> |
+| **Related Requirements:**   | None |
+| **Related Artifacts:**      | None |
+| **Related Principles:**     | None |
+| **Notes:**                  | <ul><li>The team all has some knowledge of unit testing and have all used JUnit to test Java applications</li><li>Using JavaScript itself is new to the majority of the team aso using a simple unit testing framework would be preferable</li><li>As we are using React, it seemed obvious to use Jest given how closely linked the two are</li></ul> |
 
 #### Blank Architectural Decision Template
 |                             |                                                                             |
