@@ -11,7 +11,8 @@ active documents are will be updated as and when architectural decisions are mad
 course of the project.
 
 ### Project Management
-| Version Control                                                                                           |
+#### Version Control
+|                             |                                                                             |
 | --------------------------- | --------------------------------------------------------------------------- |
 | **Issue:**         		  |	The project requires collaboration and constant development of an application, and therefore it must be possible to easily make and revert changes in the codebase. |
 | **Decision:**       		  |	Use a version control system, namely Git, to track changes and versions of the codebase to enable backtracking. |
@@ -27,7 +28,8 @@ course of the project.
 | **Related Artifacts:**      | None |
 | **Notes:**                  | <ul><li>All of the team has some minor experience with SVN from 1st year programming module</li><li>Those who have experienced Git have found it much more user friendly and easy-to-use</li><li>Git is the most popular version control system and would be useful to have knowledge of going forward</li></ul> |
 
-| Backlog and Sprint Management                                                                             |
+#### Backlog and Sprint Management
+|                             |                                                                             |
 | --------------------------- | --------------------------------------------------------------------------- |
 | **Issue:**         		  |	The project requires a well-defined backlog to be maintained to ensure each team member is clear on what has been done, is being done and needs to be done at every stage. |
 | **Decision:**       		  |	Use a Kanban board, namely GitHub Project Boards, to define the project backlog, assign tasks, and monitor the progress of the project. |
@@ -43,7 +45,8 @@ course of the project.
 | **Related Artifacts:**      | None |
 | **Notes:**                  | <ul><li>Some of the team has used Trello before, however GitHub Project Boards offers a more transparent kanban board feature and is integrated in the GitHub ecosystem</li></ul> |
 
-| Blank Architectural Decision Template                                                                     |
+#### Blank Architectural Decision Template
+|                             |                                                                             |
 | --------------------------- | --------------------------------------------------------------------------- |
 | **Issue:**         		  |	 |
 | **Decision:**       		  |	 |
