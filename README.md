@@ -61,7 +61,25 @@ course of the project.
 | **Related Decisions:**      | None |
 | **Related Requirements:**   | None |
 | **Related Artifacts:**      | None |
-| **Notes:**                  | <ul><li>Very little knowledge of automation tools such as GitHub Actions or Jenkins amongst the team</li><li>Learning curve of GitHub actions seems relatively smaller than that of Jenkins</li</ul> |
+| **Notes:**                  | <ul><li>Very little knowledge of automation tools such as GitHub Actions or Jenkins amongst the team</li><li>Learning curve of GitHub actions seems relatively smaller than that of Jenkins</li></ul> |
+
+#### Static Analysis
+|                             |                                                                             |
+| --------------------------- | --------------------------------------------------------------------------- |
+| **Issue:**         		  |	 |
+| **Decision:**       		  |	 |
+| **Status:**         		  | Pending |
+| **Group:**          		  | CI/CD Pipeline |
+| **Assumptions:**            | <ul><li>The quality and security of code cannot be left solely to developers</li></ul> |
+| **Constraints:**            | None |
+| **Positions:**              | <ul><li>Using Sonarqube</li><li>Using pre-commit</li><li>Using synk</li></ul> |
+| **Argument:**               |  |
+| **Implications:**           |  |
+| **Related Decisions:**      | None |
+| **Related Requirements:**   | None |
+| **Related Artifacts:**      | None |
+| **Notes:**                  | <ul><li></li></ul> |
+
 
 #### Blank Architectural Decision Template
 |                             |                                                                             |
