@@ -45,6 +45,24 @@ course of the project.
 | **Related Artifacts:**      | None |
 | **Notes:**                  | <ul><li>Some of the team has used Trello before, however GitHub Project Boards offers a more transparent kanban board feature and is integrated in the GitHub ecosystem</li></ul> |
 
+### CI/CD Pipeline
+#### Workflow Automation
+|                             |                                                                             |
+| --------------------------- | --------------------------------------------------------------------------- |
+| **Issue:**         		  |	The project requires the automation of software development workflows, namely automating the integration and deployment of the application. |
+| **Decision:**       		  |	Use a platform, namely GitHub Actions, that enables the automation of the build, test and deployment pipeline |
+| **Status:**         		  | Decided |
+| **Group:**          		  | CI/CD Pipeline |
+| **Assumptions:**            | None |
+| **Constraints:**            | None |
+| **Positions:**              | <ul><li>Using Jenkins</li></ul> |
+| **Argument:**               | As we will be using GitHub, GitHub Actions offers an integrated platform with the GitHub ecosystem. The learning curve for GitHub Actions also seems smaller than that of Jenkins which is key in the short time of the project. |
+| **Implications:**           | The team will need to become familiar with creating workflows using GitHub Actions and customising them to the project requirements. |
+| **Related Decisions:**      | None |
+| **Related Requirements:**   | None |
+| **Related Artifacts:**      | None |
+| **Notes:**                  | <ul><li>Very little knowledge of automation tools such as GitHub Actions or Jenkins amongst the team</li><li>Learning curve of GitHub actions seems relatively smaller than that of Jenkins</li</ul> |
+
 #### Blank Architectural Decision Template
 |                             |                                                                             |
 | --------------------------- | --------------------------------------------------------------------------- |
