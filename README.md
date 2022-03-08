@@ -80,6 +80,23 @@ course of the project.
 | **Related Artifacts:**      | None |
 | **Notes:**                  | <ul><li></li></ul> |
 
+### Frontend
+|                             |                                                                             |
+| --------------------------- | --------------------------------------------------------------------------- |
+| **Issue:**         		  |	The project will require a frontend UI for the application that is both functional and visually appealing. |
+| **Decision:**       		  |	Use JavaScript and moreover use the React library to develop the application frontend |
+| **Status:**         		  | Decided |
+| **Group:**          		  | Frontend |
+| **Assumptions:**            | None |
+| **Constraints:**            | None |
+| **Positions:**              | <ul><li>Using vanillia JavaScript</li><li>Using Vue.js</li></ul> |
+| **Argument:**               | Using React removes many of the complexities of working vanilla JavaScript and greatly simplifies the development of the application. React is also more catered toward cross-platform as opposed to Vue.js and while this application will not be cross-platform for this project, given the nature of the application, it may be something to consider for future development. |
+| **Implications:**           | The frontend team will need to familiarise itself with React and JavaScript in general. |
+| **Related Decisions:**      | <ul><li>Choice of unit testing framework</li></ul> |
+| **Related Requirements:**   | None |
+| **Related Artifacts:**      | None |
+| **Notes:**                  | <ul><li></li></ul> |
+
 
 #### Blank Architectural Decision Template
 |                             |                                                                             |
