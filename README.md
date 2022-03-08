@@ -26,6 +26,7 @@ course of the project.
 | **Related Decisions:**      | None |
 | **Related Requirements:**   | None |
 | **Related Artifacts:**      | None |
+| **Related Principles:**     | None |
 | **Notes:**                  | <ul><li>All of the team has some minor experience with SVN from 1st year programming module</li><li>Those who have experienced Git have found it much more user friendly and easy-to-use</li><li>Git is the most popular version control system and would be useful to have knowledge of going forward</li></ul> |
 
 #### Backlog and Sprint Management
@@ -43,6 +44,7 @@ course of the project.
 | **Related Decisions:**      | None |
 | **Related Requirements:**   | None |
 | **Related Artifacts:**      | None |
+| **Related Principles:**     | None |
 | **Notes:**                  | <ul><li>Some of the team has used Trello before, however GitHub Project Boards offers a more transparent kanban board feature and is integrated in the GitHub ecosystem</li></ul> |
 
 ### CI/CD Pipeline
@@ -61,6 +63,7 @@ course of the project.
 | **Related Decisions:**      | None |
 | **Related Requirements:**   | None |
 | **Related Artifacts:**      | None |
+| **Related Principles:**     | None |
 | **Notes:**                  | <ul><li>Very little knowledge of automation tools such as GitHub Actions or Jenkins amongst the team</li><li>Learning curve of GitHub actions seems relatively smaller than that of Jenkins</li></ul> |
 
 #### Static Analysis
@@ -78,6 +81,7 @@ course of the project.
 | **Related Decisions:**      | None |
 | **Related Requirements:**   | None |
 | **Related Artifacts:**      | None |
+| **Related Principles:**     | None |
 | **Notes:**                  | <ul><li></li></ul> |
 
 ### Frontend
@@ -95,7 +99,27 @@ course of the project.
 | **Related Decisions:**      | <ul><li>Choice of unit testing framework</li></ul> |
 | **Related Requirements:**   | None |
 | **Related Artifacts:**      | None |
+| **Related Principles:**     | None |
 | **Notes:**                  | <ul><li></li></ul> |
+
+### Backend
+#### Backend Framework
+|                             |                                                                             |
+| --------------------------- | --------------------------------------------------------------------------- |
+| **Issue:**         		  |	The project require a backend framework to build the application |
+| **Decision:**       		  |	Use Node.js |
+| **Status:**         		  | Decided |
+| **Group:**          		  | Backend |
+| **Assumptions:**            | None |
+| **Constraints:**            | None |
+| **Positions:**              | <ul><li>Use Java</li></ul> |
+| **Argument:**               | Using Node.js integrates well with our frontend React application and also makes integration with a database relatively straightforward. |
+| **Implications:**           | The backend team will have to learn Node.js |
+| **Related Decisions:**      | <ul><li>Choice of frontend</li><li>Choice of unit testing framework</li><li>Choice of database</li></ul> |
+| **Related Requirements:**   | None |
+| **Related Artifacts:**      | None |
+| **Related Principles:**     | None |
+| **Notes:**                  | <ul><li>The team has extensive knowledge of Java from college already</li><li>Using JavaScript and Node.js might be best for both learning and also for the purposes of the application</li><li>The JavaScript syntax is relatively similar to that of Java and so should be relatively familiar</li></ul> |
 
 
 #### Blank Architectural Decision Template
@@ -113,5 +137,6 @@ course of the project.
 | **Related Decisions:**      |  |
 | **Related Requirements:**   |  |
 | **Related Artifacts:**      |  |
+| **Related Principles:**     |  |
 | **Notes:**                  | <ul><li></li></ul> |
 
