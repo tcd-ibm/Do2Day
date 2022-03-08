@@ -130,7 +130,7 @@ course of the project.
 | **Group:**          		  | Backend |
 | **Assumptions:**            | <ul><li>Building a substantial application is not feasible if bugs cannot be easily found and rectified</li></ul> |
 | **Constraints:**            | None |
-| **Positions:**              | <ul><li>Using Mocha</li><li>Using Cypress</li>/<li>Using Webdriver</li><ul> |
+| **Positions:**              | <ul><li>Using Mocha</li><li>Using Cypress</li><li>Using Webdriver</li></ul> |
 | **Argument:**               | Jest was designed by Facebook developers to work with React and so it fits seamlessly with our React application. Jest is also relatively simple and requires no pre-configuration unlike Mocha. Jest is also specifically designed for unit testing as opposed to more comprehensive testing frameworks like Cypress and Webdriver which offer a variety of additional testing mechanisms which are not required for the purposes of this project. |
 | **Implications:**           | The backend team will need to become familiar with the syntax and write Jest unit tests when developing new features and functions. |
 | **Related Decisions:**      |  <ul><li>Choice of backend framework</li></ul> |
@@ -148,7 +148,7 @@ course of the project.
 | **Group:**          		  | Backend |
 | **Assumptions:**            | <ul><li>The data must be easily accessible</li></ul> |
 | **Constraints:**            | None |
-| **Positions:**              | <ul><li>Using MySQL</li><li>Using SQLite</li>/<li>Using PostgreSQL</li><ul> |
+| **Positions:**              | <ul><li>Using MySQL</li><li>Using SQLite</li><li>Using PostgreSQL</li></ul> |
 | **Argument:**               |  |
 | **Implications:**           | The backend team will need to become familiar with the MongoDB API for storage and retrieval of data, as well as configuring the database as required. |
 | **Related Decisions:**      | None |
