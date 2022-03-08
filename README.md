@@ -139,21 +139,21 @@ course of the project.
 | **Related Principles:**     | None |
 | **Notes:**                  | <ul><li>The team all has some knowledge of unit testing and have all used JUnit to test Java applications</li><li>Using JavaScript itself is new to the majority of the team aso using a simple unit testing framework would be preferable</li><li>As we are using React, it seemed obvious to use Jest given how closely linked the two are</li></ul> |
 
-#### Blank Architectural Decision Template
+#### Database
 |                             |                                                                             |
 | --------------------------- | --------------------------------------------------------------------------- |
-| **Issue:**         		  |	 |
-| **Decision:**       		  |	 |
-| **Status:**         		  |  |
-| **Group:**          		  |  |
-| **Assumptions:**            | <ul><li></li></ul> |
-| **Constraints:**            |  |
-| **Positions:**              | <ul><li></li></ul> |
+| **Issue:**         		  |	The project requires that the application data be stored in a persistent database |
+| **Decision:**       		  |	Use MongoDB to store and retrieve application data |
+| **Status:**         		  | Pending |
+| **Group:**          		  | Backend |
+| **Assumptions:**            | <ul><li>The data must be easily accessible</li></ul> |
+| **Constraints:**            | None |
+| **Positions:**              | <ul><li>Using MySQL</li><li>Using SQLite</li>/<li>Using PostgreSQL</li><ul> |
 | **Argument:**               |  |
-| **Implications:**           |  |
-| **Related Decisions:**      |  |
-| **Related Requirements:**   |  |
-| **Related Artifacts:**      |  |
-| **Related Principles:**     |  |
+| **Implications:**           | The backend team will need to become familiar with the MongoDB API for storage and retrieval of data, as well as configuring the database as required. |
+| **Related Decisions:**      | None |
+| **Related Requirements:**   | None |
+| **Related Artifacts:**      | None |
+| **Related Principles:**     | None |
 | **Notes:**                  | <ul><li></li></ul> |
 
