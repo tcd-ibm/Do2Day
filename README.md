@@ -9,12 +9,12 @@ From using a microservice architecture, making comprehensive sprint plans and do
 ## The Architecture
 Originally, we had began with a monlithic architecture for our application in which we used a single repository for encorporating the frontend, backend and database. After some feedback from our mentors, Mihai and Panpan, we opted to change this approach to a microservice architecture in which we separated the frontend and backend completely into separate repositories, and instead made them interact via an API.
 
-<img src="./Images/architecture.png" width="35%" height="35%" style="display: block; margin: 0 auto"/>
+<img src="./Images/architecture.png" width="75%" height="75%" style="display: block; margin: 0 auto"/>
 
 ## The Application
 The application consists of a simple React frontend, which is unit tested using Jest, a simple node.js backend, which is unit tested using Mocha and a MongoDB database. All of these components are completely distinct and interact via well-defined APIs.
 
-<img src="./Images/application.png" width="35%" height="35%" style="display: block; margin: 0 auto"/>
+<img src="./Images/application.png" width="75%" height="75%" style="display: block; margin: 0 auto"/>
 
 
 ## The CI/CD Pipeline
@@ -22,11 +22,11 @@ We built both the frontend and backend into container images, unit tested theme 
 
 It's fair to say, this is where the bulk of project was focused, and using GitHub Actions made this quite straightforward, enabling us to use custom actions and write our own workflows to suit our needs. We could define our workflow triggers on pull requests, pushes and a variety of other triggers and enabled the entire process to be sped up once properly configures.
 
-<img src="./Images/deployment.png" width="35%" height="35%" style="display: block; margin: 0 auto"/>
+<img src="./Images/deployment.png" width="75%" height="75%" style="display: block; margin: 0 auto"/>
 
-<img src="./Images/workflows.png" width="35%" height="35%" style="display: block; margin: 0 auto"/>
+<img src="./Images/workflows.png" width="75%" height="75%" style="display: block; margin: 0 auto"/>
 
-<img src="./Images/codereview.png" width="35%" height="35%" style="display: block; margin: 0 auto"/>
+<img src="./Images/codereview.png" width="75%" height="75%" style="display: block; margin: 0 auto"/>
 
 ## Architectural Decisions
 Below are the architectural decisions we encountered over the course of the project, the solutions we
