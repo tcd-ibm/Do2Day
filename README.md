@@ -11,6 +11,8 @@ Originally, we had began with a monlithic architecture for our application in wh
 
 <center><img src="./Images/architecture.png" width="75%" height="75%" style="display: block; margin: 0 auto"/></center>
 
+Over the course of the project, we had to make a number of architectural decisions. Choosing the best technology was difficult and required a lot of debate amongst the group, and as such we found it useful to make rough documentation to document our discussions, options and ultimate decisions to ensure we were making rational and appropriate choices on technologies and frameworks. Our architectural decisions can be viewed [here](ArchitecturalDecisions.md).
+
 ## The Application
 The application consists of a simple React frontend, which is unit tested using Jest, a simple node.js backend, which is unit tested using Mocha and a MongoDB database. All of these components are completely distinct and interact via well-defined APIs.
 
@@ -27,3 +29,6 @@ It's fair to say, this is where the bulk of project was focused, and using GitHu
 <img src="./Images/workflows.png" width="75%" height="75%" style="display: block; margin: 0 auto"/>
 
 <img src="./Images/codereview.png" width="75%" height="75%" style="display: block; margin: 0 auto"/>
+
+## Documentation
+We documented our project at various stages from our initial requirements document and project plan to our final video and poster. Find them [here](./Reports).
