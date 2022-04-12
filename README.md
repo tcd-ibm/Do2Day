@@ -9,7 +9,7 @@ From using a microservice architecture, making comprehensive sprint plans and do
 ## The Architecture
 Originally, we had began with a monlithic architecture for our application in which we used a single repository for encorporating the frontend, backend and database. After some feedback from our mentors, Mihai and Panpan, we opted to change this approach to a microservice architecture in which we separated the frontend and backend completely into separate repositories, and instead made them interact via an API.
 
-<img src="./Images/architecture.png" width="75%" height="75%" style="display: block; margin: 0 auto"/>
+<center><img src="./Images/architecture.png" width="75%" height="75%" style="display: block; margin: 0 auto"/></center>
 
 ## The Application
 The application consists of a simple React frontend, which is unit tested using Jest, a simple node.js backend, which is unit tested using Mocha and a MongoDB database. All of these components are completely distinct and interact via well-defined APIs.
